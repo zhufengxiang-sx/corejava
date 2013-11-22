@@ -4,16 +4,14 @@ package cp3;
  * 循环结构
  * 
  * 块作用域
- * 	块的概念，作用
+ * 	块的概念:由一对花括号括起来的若干条简单的Java语句。
+ * 	作用：确定变量的作用域。
+ * 
+ * 一个块可以嵌套在另一个块中。但是不能在嵌套的两个块中声明同名的变量。
  *
  */
 public class Control {
 	public static void main(String[] args) {
-		int n = 11;
-		{
-			int k = 12;
-			System.out.println(n);
-			System.out.println(k);
-		}
+
 	}
 }
